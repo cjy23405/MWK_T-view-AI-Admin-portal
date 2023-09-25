@@ -1,0 +1,34 @@
+@import '../fonts/NotoSansKR-Hestia/style.css';
+
+html,
+body,
+pre,
+button,
+select,
+textarea,
+[type='button'],
+[type='submit'],
+[type='text'],
+[type='password'],
+[type='search'],
+[type='email'],
+[type='url'],
+[type='number'],
+[type='tel'],
+[type='file'] {
+  font-family: 'Noto Sans Korean', '맑은고딕', 'Malgun Gothic', '돋움', Dotum, 'Apple Gothic', sans-serif;
+  color: rgba(0, 0, 0, 0.8);
+  -webkit-text-size-adjust: none;
+  text-size-adjust: none;
+}
+
+button:focus,
+[type='button']:focus,
+[type='submit']:focus {
+  outline-width: 1px;
+  outline-style: dotted;
+}
+
+label {
+  cursor: pointer;
+}

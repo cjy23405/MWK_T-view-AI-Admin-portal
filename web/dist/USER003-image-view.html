@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <title>T-view AI Admin Portal</title>
+
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <!-- favicon -->
+    <link rel="icon" href="./assets/images/common/favicon.ico" type="image/x-icon" />
+    <!-- //favicon -->
+
+    <!-- style -->
+    <link type="text/css" rel="stylesheet" href="./assets/css/simplebar.css" />
+    <link type="text/css" rel="stylesheet" href="./assets/css/bootstrap.min.css" />
+    <link type="text/css" rel="stylesheet" href="./assets/css/bootstrap-datetimepicker.min.css" />
+    <link type="text/css" rel="stylesheet" href="./assets/css/common.css" />
+    <link type="text/css" rel="stylesheet" href="./assets/css/ui-style.css" />
+    <!-- //style -->
+  </head>
+  <body>
+    <a href="" data-layer-open="layer-image-view">이미지 보기</a>
+
+    <!-- layer: 이미지 보기 -->
+    <div class="layer-wrap layer-image-view" data-layer="layer-image-view">
+      <div class="layer-container">
+        <div class="mini-layer">
+          <div class="mini-layer__head">
+            <h2 class="mini-layer__title">Photo viewer</h2>
+            <button type="button" class="ui-button mini-layer__close" data-role="layerClose">
+              <span class="for-a11y">레이어 닫기</span>
+            </button>
+          </div>
+          <div class="mini-layer__body">
+            <div class="mini-layer__body-inner">
+              <!-- 2021.02.17 : mod : 이미지 케이스 추가 -->
+
+              <!-- Case : 이미지 있음 -->
+              <div class="input-image-view input-image-view--layer">
+                <img src="./assets/images/_dummy/profile.jpg" alt="" class="input-image-view__img" onerror="this.parentNode.className += ' is-error';" />
+              </div>
+              <!-- //Case : 이미지 있음 -->
+
+              <!-- Case : 이미지 에러 (input-image-view 에 is-error 클래스값 추가) -->
+              <div class="input-image-view input-image-view--layer">
+                <img src="http:undefined" alt="" class="input-image-view__img" onerror="this.parentNode.className += ' is-error';" />
+              </div>
+              <!-- //Case : 이미지 에러 (input-image-view 에 is-error 클래스값 추가) -->
+
+              <!-- Case : 이미지 없음 -->
+              <div class="input-image-view input-image-view--layer"></div>
+              <!-- //Case : 이미지 없음 -->
+
+              <!-- //2021.02.17 : mod : 이미지 케이스 추가 -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- //layer: 이미지 보기 -->
+
+    <!-- script -->
+    <script type="text/javascript" src="./assets/js/polyfills.js"></script>
+    <script type="text/javascript" src="./assets/js/jquery-3.5.1.min.js"></script>
+    <script type="text/javascript" src="./assets/js/simplebar.min.js"></script>
+    <script type="text/javascript" src="./assets/js/moment-with-locales.min.js"></script>
+    <script type="text/javascript" src="./assets/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="./assets/js/bootstrap-datetimepicker.min.js"></script>
+    <script type="text/javascript" src="./assets/js/highcharts.js"></script>
+    <script type="text/javascript" src="./assets/js/ui-script.js"></script>
+    <script type="text/javascript">
+      // 퍼블리셔 테스트 소스 입니다. 운영엔 반영하지 말아주세요.
+      $(function () {
+        uiJSLayer.open('layer-image-view');
+      });
+    </script>
+    <!-- //script -->
+  </body>
+</html>

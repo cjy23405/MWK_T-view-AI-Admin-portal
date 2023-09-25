@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="12.828" height="12.828" viewBox="0 0 12.828 12.828">
+    <defs>
+        <style>
+            .cls-1{fill:none;stroke:#707070;stroke-linecap:round;stroke-width:2px}
+        </style>
+    </defs>
+    <g id="icon_cancle_line" transform="translate(-760.086 -240.086)">
+        <path id="선_80" d="M0 0L10 10" class="cls-1" transform="translate(761.5 241.5)"/>
+        <path id="선_81" d="M10 0L0 10" class="cls-1" transform="translate(761.5 241.5)"/>
+    </g>
+</svg>

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="down_dis" width="14" height="19" viewBox="0 0 14 19">
+    <defs>
+        <style>
+            .cls-1{fill:#b5b5b5}
+        </style>
+    </defs>
+    <g id="그룹_847" transform="translate(-1132 -670.129)">
+        <rect id="사각형_683" width="14" height="2" class="cls-1" rx="1" transform="translate(1132 684)"/>
+        <rect id="사각형_684" width="2" height="7" class="cls-1" rx="1" transform="translate(1138 673.258)"/>
+        <rect id="사각형_687" width="2" height="6" class="cls-1" rx="1" transform="rotate(-45 1386.109 -1030.645)"/>
+        <rect id="사각형_688" width="2" height="6" class="cls-1" rx="1" transform="rotate(-135 710.85 105.355)"/>
+        <rect id="사각형_689" width="2" height="3.742" class="cls-1" rx="1" transform="translate(1132 682.258)"/>
+        <rect id="사각형_690" width="2" height="3.742" class="cls-1" rx="1" transform="translate(1144 682.258)"/>
+    </g>
+    <path id="사각형_757" fill="none" d="M0 0H14V19H0z"/>
+</svg>

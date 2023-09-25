@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <title>T-view AI Admin Portal</title>
+
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <!-- favicon -->
+    <link rel="icon" href="./assets/images/common/favicon.ico" type="image/x-icon" />
+    <!-- //favicon -->
+
+    <!-- style -->
+    <link type="text/css" rel="stylesheet" href="./assets/css/simplebar.css" />
+    <link type="text/css" rel="stylesheet" href="./assets/css/bootstrap.min.css" />
+    <link type="text/css" rel="stylesheet" href="./assets/css/bootstrap-datetimepicker.min.css" />
+    <link type="text/css" rel="stylesheet" href="./assets/css/common.css" />
+    <link type="text/css" rel="stylesheet" href="./assets/css/ui-style.css" />
+    <!-- //style -->
+  </head>
+  <body>
+    <a href="" data-layer-open="layer-visitor-add">방문자 수동 등록</a>
+
+    <!-- layer: 방문자 수동 등록 -->
+    <div class="layer-wrap layer-visitor-editor" data-layer="layer-visitor-add">
+      <div class="layer-container">
+        <section class="ui-layer ui-layer--small">
+          <div class="ui-layer__head">
+            <h2 class="ui-layer__title ui-layer__title--icon ui-layer__title--add">방문자 수동 등록</h2>
+          </div>
+          <div class="ui-layer__body">
+            <div class="ui-scroller">
+              <div class="ui-layer__body-inner">
+                <dl class="form-row">
+                  <dt class="form-row__key">*Customer</dt>
+                  <dd class="form-row__val">
+                    <div class="ui-dropdown js-ui-dropdown">
+                      <div class="ui-dropdown__inner">
+                        <span class="ui-dropdown__text">
+                          <span class="for-a11y">Selected : </span>
+                          <span data-radio-watch-view="visitorAdd1" data-radio-watch-placeholder="Customer 선택"></span>
+                        </span>
+                        <button type="button" class="ui-button ui-dropdown__opener js-ui-dropdown__opener">
+                          <span class="for-a11y">
+                            Dropdown
+                            <span class="open-text">open</span>
+                            <span class="close-text">close</span>
+                          </span>
+                        </button>
+                      </div>
+                      <div class="ui-dropdown__layer js-ui-dropdown__layer">
+                        <div class="ui-scroller ui-scroller--secondary">
+                          <ul class="ui-dropdown__option-list ui-dropdown__option-list--plain">
+                            <li class="ui-dropdown__option-item">
+                              <div class="ui-radio-block">
+                                <input type="radio" class="ui-radio" name="visitorAdd1" id="visitorAdd1-1" data-radio-watch="visitorAdd1" data-radio-watch-value="SKT T-타워" checked />
+                                <label for="visitorAdd1-1" class="ui-label" tabindex="-1">
+                                  <span class="ui-label__text">SKT T-타워</span>
+                                </label>
+                              </div>
+                            </li>
+                            <li class="ui-dropdown__option-item">
+                              <div class="ui-radio-block">
+                                <input type="radio" class="ui-radio" name="visitorAdd1" id="visitorAdd1-2" data-radio-watch="visitorAdd1" data-radio-watch-value="Value 1" />
+                                <label for="visitorAdd1-2" class="ui-label" tabindex="-1">
+                                  <span class="ui-label__text">Value 1</span>
+                                </label>
+                              </div>
+                            </li>
+                            <li class="ui-dropdown__option-item">
+                              <div class="ui-radio-block">
+                                <input type="radio" class="ui-radio" name="visitorAdd1" id="visitorAdd1-3" data-radio-watch="visitorAdd1" data-radio-watch-value="Value 2" />
+                                <label for="visitorAdd1-3" class="ui-label" tabindex="-1">
+                                  <span class="ui-label__text">Value 2</span>
+                                </label>
+                              </div>
+                            </li>
+                            <li class="ui-dropdown__option-item">
+                              <div class="ui-radio-block">
+                                <input type="radio" class="ui-radio" name="visitorAdd1" id="visitorAdd1-4" data-radio-watch="visitorAdd1" data-radio-watch-value="Value 3" />
+                                <label for="visitorAdd1-4" class="ui-label" tabindex="-1">
+                                  <span class="ui-label__text">Value 3</span>
+                                </label>
+                              </div>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </dd>
+                </dl>
+                <dl class="form-row">
+                  <dt class="form-row__key">*Project</dt>
+                  <dd class="form-row__val">
+                    <div class="ui-dropdown js-ui-dropdown">
+                      <div class="ui-dropdown__inner">
+                        <span class="ui-dropdown__text">
+                          <span class="for-a11y">Selected : </span>
+                          <span data-radio-watch-view="visitorAdd2" data-radio-watch-placeholder="Project 선택"></span>
+                        </span>
+                        <button type="button" class="ui-button ui-dropdown__opener js-ui-dropdown__opener">
+                          <span class="for-a11y">
+                            Dropdown
+                            <span class="open-text">open</span>
+                            <span class="close-text">close</span>
+                          </span>
+                        </button>
+                      </div>
+                      <div class="ui-dropdown__layer js-ui-dropdown__layer">
+                        <div class="ui-scroller ui-scroller--secondary">
+                          <ul class="ui-dropdown__option-list ui-dropdown__option-list--plain">
+                            <li class="ui-dropdown__option-item">
+                              <div class="ui-radio-block">
+                                <input type="radio" class="ui-radio" name="visitorAdd2" id="visitorAdd2-1" data-radio-watch="visitorAdd2" data-radio-watch-value="A Project" checked />
+                                <label for="visitorAdd2-1" class="ui-label" tabindex="-1">
+                                  <span class="ui-label__text">A Project</span>
+                                </label>
+                              </div>
+                            </li>
+                            <li class="ui-dropdown__option-item">
+                              <div class="ui-radio-block">
+                                <input type="radio" class="ui-radio" name="visitorAdd2" id="visitorAdd2-2" data-radio-watch="visitorAdd2" data-radio-watch-value="Value 1" />
+                                <label for="visitorAdd2-2" class="ui-label" tabindex="-1">
+                                  <span class="ui-label__text">Value 1</span>
+                                </label>
+                              </div>
+                            </li>
+                            <li class="ui-dropdown__option-item">
+                              <div class="ui-radio-block">
+                                <input type="radio" class="ui-radio" name="visitorAdd2" id="visitorAdd2-3" data-radio-watch="visitorAdd2" data-radio-watch-value="Value 2" />
+                                <label for="visitorAdd2-3" class="ui-label" tabindex="-1">
+                                  <span class="ui-label__text">Value 2</span>
+                                </label>
+                              </div>
+                            </li>
+                            <li class="ui-dropdown__option-item">
+                              <div class="ui-radio-block">
+                                <input type="radio" class="ui-radio" name="visitorAdd2" id="visitorAdd2-4" data-radio-watch="visitorAdd2" data-radio-watch-value="Value 3" />
+                                <label for="visitorAdd2-4" class="ui-label" tabindex="-1">
+                                  <span class="ui-label__text">Value 3</span>
+                                </label>
+                              </div>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </dd>
+                </dl>
+                <dl class="form-row">
+                  <dt class="form-row__key">*분석그룹</dt>
+                  <dd class="form-row__val">
+                    <div class="ui-dropdown js-ui-dropdown">
+                      <div class="ui-dropdown__inner">
+                        <span class="ui-dropdown__text">
+                          <span class="for-a11y">Selected : </span>
+                          <span data-radio-watch-view="visitorAdd3" data-radio-watch-placeholder="분석그룹 선택"></span>
+                        </span>
+                        <button type="button" class="ui-button ui-dropdown__opener js-ui-dropdown__opener">
+                          <span class="for-a11y">
+                            Dropdown
+                            <span class="open-text">open</span>
+                            <span class="close-text">close</span>
+                          </span>
+                        </button>
+                      </div>
+                      <div class="ui-dropdown__layer js-ui-dropdown__layer">
+                        <div class="ui-scroller ui-scroller--secondary">
+                          <ul class="ui-dropdown__option-list ui-dropdown__option-list--plain">
+                            <li class="ui-dropdown__option-item">
+                              <div class="ui-radio-block">
+                                <input type="radio" class="ui-radio" name="visitorAdd3" id="visitorAdd3-1" data-radio-watch="visitorAdd3" data-radio-watch-value="분석 A-01" checked />
+                                <label for="visitorAdd3-1" class="ui-label" tabindex="-1">
+                                  <span class="ui-label__text">분석 A-01</span>
+                                </label>
+                              </div>
+                            </li>
+                            <li class="ui-dropdown__option-item">
+                              <div class="ui-radio-block">
+                                <input type="radio" class="ui-radio" name="visitorAdd3" id="visitorAdd3-2" data-radio-watch="visitorAdd3" data-radio-watch-value="Value 1" />
+                                <label for="visitorAdd3-2" class="ui-label" tabindex="-1">
+                                  <span class="ui-label__text">Value 1</span>
+                                </label>
+                              </div>
+                            </li>
+                            <li class="ui-dropdown__option-item">
+                              <div class="ui-radio-block">
+                                <input type="radio" class="ui-radio" name="visitorAdd3" id="visitorAdd3-3" data-radio-watch="visitorAdd3" data-radio-watch-value="Value 2" />
+                                <label for="visitorAdd3-3" class="ui-label" tabindex="-1">
+                                  <span class="ui-label__text">Value 2</span>
+                                </label>
+                              </div>
+                            </li>
+                            <li class="ui-dropdown__option-item">
+                              <div class="ui-radio-block">
+                                <input type="radio" class="ui-radio" name="visitorAdd3" id="visitorAdd3-4" data-radio-watch="visitorAdd3" data-radio-watch-value="Value 3" />
+                                <label for="visitorAdd3-4" class="ui-label" tabindex="-1">
+                                  <span class="ui-label__text">Value 3</span>
+                                </label>
+                              </div>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </dd>
+                </dl>
+                <dl class="form-row">
+                  <dt class="form-row__key">*방문자 유형 선택</dt>
+                  <dd class="form-row__val">
+                    <div class="ui-dropdown js-ui-dropdown">
+                      <div class="ui-dropdown__inner">
+                        <span class="ui-dropdown__text">
+                          <span class="for-a11y">Selected : </span>
+                          <span data-radio-watch-view="visitorAdd4" data-radio-watch-placeholder="방문자 유형 선택"></span>
+                        </span>
+                        <button type="button" class="ui-button ui-dropdown__opener js-ui-dropdown__opener">
+                          <span class="for-a11y">
+                            Dropdown
+                            <span class="open-text">open</span>
+                            <span class="close-text">close</span>
+                          </span>
+                        </button>
+                      </div>
+                      <div class="ui-dropdown__layer js-ui-dropdown__layer">
+                        <div class="ui-scroller ui-scroller--secondary">
+                          <ul class="ui-dropdown__option-list ui-dropdown__option-list--plain">
+                            <li class="ui-dropdown__option-item">
+                              <div class="ui-radio-block">
+                                <input type="radio" class="ui-radio" name="visitorAdd4" id="visitorAdd4-1" data-radio-watch="visitorAdd4" data-radio-watch-value="Staff" checked />
+                                <label for="visitorAdd4-1" class="ui-label" tabindex="-1">
+                                  <span class="ui-label__text">Staff</span>
+                                </label>
+                              </div>
+                            </li>
+                            <li class="ui-dropdown__option-item">
+                              <div class="ui-radio-block">
+                                <input type="radio" class="ui-radio" name="visitorAdd4" id="visitorAdd4-2" data-radio-watch="visitorAdd4" data-radio-watch-value="Value 1" />
+                                <label for="visitorAdd4-2" class="ui-label" tabindex="-1">
+                                  <span class="ui-label__text">Value 1</span>
+                                </label>
+                              </div>
+                            </li>
+                            <li class="ui-dropdown__option-item">
+                              <div class="ui-radio-block">
+                                <input type="radio" class="ui-radio" name="visitorAdd4" id="visitorAdd4-3" data-radio-watch="visitorAdd4" data-radio-watch-value="Value 2" />
+                                <label for="visitorAdd4-3" class="ui-label" tabindex="-1">
+                                  <span class="ui-label__text">Value 2</span>
+                                </label>
+                              </div>
+                            </li>
+                            <li class="ui-dropdown__option-item">
+                              <div class="ui-radio-block">
+                                <input type="radio" class="ui-radio" name="visitorAdd4" id="visitorAdd4-4" data-radio-watch="visitorAdd4" data-radio-watch-value="Value 3" />
+                                <label for="visitorAdd4-4" class="ui-label" tabindex="-1">
+                                  <span class="ui-label__text">Value 3</span>
+                                </label>
+                              </div>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </dd>
+                </dl>
+                <dl class="form-row">
+                  <dt class="form-row__key">*방문자 성명</dt>
+                  <dd class="form-row__val">
+                    <div class="ui-input-block">
+                      <input type="text" class="ui-input" title="방문자 성명" placeholder="방문자 성명을 입력하여주세요." />
+                    </div>
+                  </dd>
+                </dl>
+                <!-- DD : 입력 전 -->
+                <dl class="form-row">
+                  <dt class="form-row__key">*이미지업로드</dt>
+                  <dd class="form-row__val">
+                    <div class="ui-input-file-block">
+                      <input type="file" class="ui-input-file" title="이미지업로드" id="visitorAdd6-1" data-file-viewer="visitorAdd6-1" accept="image/*" />
+                      <div class="form-flex">
+                        <div class="form-flex__cell form-flex__cell--flexible">
+                          <div class="ui-input-block">
+                            <div class="ui-input" data-file-viewer-target="visitorAdd6-1" data-file-viewer-placeholder="이미지 찾아보기"></div>
+                          </div>
+                        </div>
+                        <div class="form-flex__cell">
+                          <label for="visitorAdd6-1" class="ui-basic-button">찾아보기</label>
+                        </div>
+                      </div>
+                    </div>
+                  </dd>
+                </dl>
+                <!-- //DD : 입력 전 -->
+                <!-- DD : 입력 후 -->
+                <dl class="form-row">
+                  <dt class="form-row__key">*이미지업로드</dt>
+                  <dd class="form-row__val">
+                    <div class="input-image-view">
+                      <img src="./assets/images/_dummy/profile.jpg" alt="" class="input-image-view__img" />
+                    </div>
+                    <div class="ui-input-file-block">
+                      <input type="file" class="ui-input-file" title="이미지업로드" id="visitorAdd6-2" data-file-viewer="visitorAdd6-2" accept="image/*" />
+                      <div class="form-flex">
+                        <div class="form-flex__cell form-flex__cell--flexible">
+                          <div class="ui-input-block">
+                            <div class="ui-input" data-file-viewer-target="visitorAdd6-2" data-file-viewer-placeholder="이미지 찾아보기"></div>
+                          </div>
+                        </div>
+                        <div class="form-flex__cell">
+                          <label for="visitorAdd6-2" class="ui-basic-button">찾아보기</label>
+                        </div>
+                      </div>
+                    </div>
+                  </dd>
+                </dl>
+                <!-- //DD : 입력 후 -->
+              </div>
+            </div>
+          </div>
+          <div class="ui-layer__foot">
+            <div class="ui-buttons">
+              <ul class="ui-buttons__list">
+                <li class="ui-buttons__item">
+                  <button type="button" class="ui-button ui-basic-button">등록</button>
+                </li>
+                <li class="ui-buttons__item">
+                  <button type="button" class="ui-button ui-basic-button ui-basic-button--secondary" data-role="layerClose">취소</button>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+    <!-- //layer: 방문자 수동 등록 -->
+
+    <!-- script -->
+    <script type="text/javascript" src="./assets/js/polyfills.js"></script>
+    <script type="text/javascript" src="./assets/js/jquery-3.5.1.min.js"></script>
+    <script type="text/javascript" src="./assets/js/simplebar.min.js"></script>
+    <script type="text/javascript" src="./assets/js/moment-with-locales.min.js"></script>
+    <script type="text/javascript" src="./assets/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="./assets/js/bootstrap-datetimepicker.min.js"></script>
+    <script type="text/javascript" src="./assets/js/highcharts.js"></script>
+    <script type="text/javascript" src="./assets/js/ui-script.js"></script>
+    <script type="text/javascript">
+      // 퍼블리셔 테스트 소스 입니다. 운영엔 반영하지 말아주세요.
+      $(function () {
+        uiJSLayer.open('layer-visitor-add');
+      });
+    </script>
+    <!-- //script -->
+  </body>
+</html>

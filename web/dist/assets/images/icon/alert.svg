@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+    <g id="ic_check" transform="translate(-128 -48)">
+        <path id="Box" fill="none" d="M0 0h40v40H0z" transform="translate(128 48)"/>
+        <circle id="타원_8" cx="18" cy="18" r="18" fill="#2185d0" data-name="타원 8" transform="translate(130 50)"/>
+        <path id="check" fill="#fff" d="M7.386 81L.319 73.929a1.087 1.087 0 0 1 0-1.538l1.538-1.538a1.087 1.087 0 0 1 1.538 0l4.761 4.761 10.2-10.2a1.087 1.087 0 0 1 1.538 0l1.538 1.538a1.087 1.087 0 0 1 0 1.538L8.924 81a1.087 1.087 0 0 1-1.538 0z" transform="translate(137 -5.098)"/>
+    </g>
+</svg>
